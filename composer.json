@@ -1,0 +1,13 @@
+{
+    "name": "dungnv/helloworld",
+    "description": "this is my first demo package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dungnv",
+            "email": "dung.nguyen2@asiantech.vn"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
