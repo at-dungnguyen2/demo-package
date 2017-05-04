@@ -8,5 +8,6 @@
             "email": "dung.nguyen2@asisantech.vn"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
