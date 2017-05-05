@@ -2,8 +2,7 @@
 namespace Dungnv\Helloworld;
  
 class Helloworld {
- 
-    public static function sayHello() {
-        return 'Hello World! I am DungNV';
+    public static function saySomething($message) {
+        return $message;
     }
 }

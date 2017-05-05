@@ -4,7 +4,7 @@ namespace Dungnv\Helloworld;
 
 use Illuminate\Support\ServiceProvider;
 
-class DungNVServiceProvider extends ServiceProvider
+class HelloWorldServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -24,7 +24,7 @@ class DungNVServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['dungnv'] = $this->app->share(function($app) {
-          return new Helloworld;
+            return new Helloworld;
         });
     }
 }
