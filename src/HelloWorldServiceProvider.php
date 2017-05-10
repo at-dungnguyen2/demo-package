@@ -24,7 +24,7 @@ class HelloWorldServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app['dungnv'] = $this->app->share(function($app) {
-          return new Helloworld;
+            return new Helloworld;
         });
     }
 }
