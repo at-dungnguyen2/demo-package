@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Dungnv\\Helloworld\\": "vendor/dungnv/helloworld/src"
+            "Dungnv\\Helloworld\\": "src"
         }
     },
     "minimum-stability": "stable",
