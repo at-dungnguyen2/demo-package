@@ -8,6 +8,11 @@
             "email": "dung.nguyen2@asisantech.vn"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Dungnv\\Helloworld\\": "src"
+        }
+    },
     "minimum-stability": "stable",
     "require": {}
 }
